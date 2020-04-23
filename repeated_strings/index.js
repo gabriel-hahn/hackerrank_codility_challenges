@@ -3,7 +3,7 @@
  * the performance wasn't so good, needing to think in a solution w/ better performance for huge strings and repeat times.
  * With this solution, I just validate the repetitions multiplying by quantity of 'a' in the string
  * and add a remainder as explained.
- * 
+ *
  * https://www.hackerrank.com/challenges/repeated-string/problem
  */
 

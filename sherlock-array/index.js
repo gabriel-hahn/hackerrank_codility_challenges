@@ -20,7 +20,7 @@ function balancedSums(arr, arrLength) {
   // Increase left sumatory and decrease right somatory to check the role array.
   for(let i = 0; i < arrLength ; i++){
       sumRight -= arr[i];
-      
+
       if(sumRight === sumLeft){
           return YES;
       }

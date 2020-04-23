@@ -2,7 +2,7 @@
  * I just check if the array is only one kind of character, e.g AAA or BBB validating it.
  * As the second validation, I go trought the string removing the repeated characteres and returning
  * the correct length in the end.
- * 
+ *
  * https://www.hackerrank.com/challenges/alternating-characters/problem
  */
 

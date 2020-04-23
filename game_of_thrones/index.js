@@ -1,9 +1,9 @@
 /**
- * This problem is about identify a palindrome (e.g aba, ttaacaatt) in the S parameter, but 
+ * This problem is about identify a palindrome (e.g aba, ttaacaatt) in the S parameter, but
  * the order of characteres might not respect the correct order of a palindrome, so I needed to identify
  * when a string 'might' be a palindrome, depending of the characteres and not of the order.
  * I just sum how many types the same character appears in the string and validate the odd numbers.
- * 
+ *
  * https://www.hackerrank.com/challenges/game-of-thrones/problem
  */
 
@@ -26,6 +26,6 @@ function gameOfThrones(s) {
       oddCount++;
     }
   }
-  
+
   return oddCount > 1 ? 'NO' : 'YES';
 }

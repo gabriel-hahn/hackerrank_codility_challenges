@@ -2,7 +2,7 @@
  * This challenge is about identify when one or more characteres exists in the other string.
  * For example, 'tea' and 'mouse' shares the same charactere 'e', but 'fork' and 'cat' don't have any
  * characteres in common.
- * 
+ *
  * https://www.hackerrank.com/challenges/two-strings/problem
  */
 
