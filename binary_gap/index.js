@@ -9,6 +9,8 @@
  * The number 20 has binary representation 10100 and contains one binary gap of length 1.
  * The number 15 has binary representation 1111 and has no binary gaps.
  * The number 32 has binary representation 100000 and has no binary gaps.
+ *
+ * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
  */
 
 function solution(N) {
