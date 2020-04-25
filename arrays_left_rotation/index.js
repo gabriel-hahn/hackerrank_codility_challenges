@@ -7,6 +7,10 @@
 
 // Complete the rotLeft function below.
 function rotLeft(a, d) {
+  if (!a) {
+    return a;
+  }
+
   const arr = [...a];
 
   while (d > 0) {
