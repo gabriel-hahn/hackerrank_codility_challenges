@@ -1,6 +1,6 @@
 # HackerRank Challenges
 
-Repository with most part of the challenges (JavaScript) I did at HackerRank :sunglasses:
+Repository with most part of the challenges (JavaScript) I did at HackerRank and Codility :sunglasses:
 
 ## Authors
 
