@@ -6,7 +6,7 @@
  */
 
 function solution(A, K) {
-  if (!A) {
+  if (!A || A.length === 0) {
     return A;
   }
 

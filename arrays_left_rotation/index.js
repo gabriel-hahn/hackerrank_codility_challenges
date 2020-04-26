@@ -7,7 +7,7 @@
 
 // Complete the rotLeft function below.
 function rotLeft(a, d) {
-  if (!a) {
+  if (!a || a.length === 0) {
     return a;
   }
 
