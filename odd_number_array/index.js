@@ -18,6 +18,7 @@ function solution(A) {
   let numbersObj = {};
   let oddNumber = 0;
 
+  // Create an object with quantity number repeats in the array.
   for (let i = 0; i < A.length; i++) {
     const number = A[i];
 
@@ -30,6 +31,7 @@ function solution(A) {
     ++numbersObj[number];
   }
 
+  // Iterate in the object and divide the number by 2 and check if it's odd or not.
   for (let number in numbersObj) {
     const isOdd = numbersObj[number] % 2 !== 0;
 
